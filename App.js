@@ -2,11 +2,13 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Header title="Alejandra Barros"/>
+      <Footer text="2TDS1"/>
     </View>
   );
 }
